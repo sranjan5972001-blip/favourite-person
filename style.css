@@ -96,4 +96,51 @@ body{
     radial-gradient(#ffd6e7 2px,transparent 2px);
     background-size:60px 60px;
     opacity:.25;
+}html{
+    scroll-behavior:smooth;
+    scroll-snap-type:y mandatory;
+}
+
+.page{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:40px 20px;
+    scroll-snap-align:start;
+    text-align:center;
+}
+
+.page h1{
+    color:#ff5d8f;
+}
+
+.page h2{
+    color:#ff5d8f;
+}
+
+.page p{
+    max-width:700px;
+    line-height:1.8;
+}
+
+.gallery{
+    width:100%;
+    max-width:700px;
+}
+
+.photo{
+    margin:40px auto;
+}
+
+.photo img{
+    width:100%;
+    max-width:500px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.end{
+    background:#FFEFF5;
 }
