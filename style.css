@@ -1,1 +1,99 @@
+body{
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background:#FFF7FA;
+    color:#444;
+    scroll-behavior:smooth;
+}
 
+.hero{
+    text-align:center;
+    padding:90px 20px;
+    background:linear-gradient(180deg,#FFE4EC,#FFF7FA);
+}
+
+.hero h1{
+    font-size:2.3rem;
+    color:#ff5d8f;
+}
+
+.hero h3{
+    color:#888;
+}
+
+.hero p{
+    max-width:600px;
+    margin:auto;
+    line-height:1.8;
+}
+
+.button{
+    display:inline-block;
+    margin-top:30px;
+    padding:14px 28px;
+    background:#ff7fa3;
+    color:white;
+    text-decoration:none;
+    border-radius:40px;
+    transition:.3s;
+}
+
+.button:hover{
+    background:#ff5d8f;
+    transform:scale(1.05);
+}
+
+.card{
+    background:white;
+    width:90%;
+    max-width:700px;
+    margin:60px auto;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.gallery{
+    width:90%;
+    max-width:800px;
+    margin:auto;
+    text-align:center;
+}
+
+.photo{
+    margin:40px 0;
+}
+
+.photo img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+}
+
+.photo p{
+    margin-top:12px;
+    color:#666;
+    font-style:italic;
+}
+
+.letter{
+    text-align:left;
+    line-height:1.9;
+}
+
+.end{
+    text-align:center;
+    padding:70px 20px;
+}
+
+.hearts{
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    background-image:
+    radial-gradient(#ffb6c1 2px,transparent 2px),
+    radial-gradient(#ffd6e7 2px,transparent 2px);
+    background-size:60px 60px;
+    opacity:.25;
+}
